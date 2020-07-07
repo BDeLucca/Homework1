@@ -1,0 +1,362 @@
+:root{
+    --light_blue: #31ece0e5;
+}
+ /* ================================= HEADER ================================= */
+header {
+    color:white;
+    background-image: url("photoshop/design-assets/bgk-header.png");
+    height: 600px;
+}
+
+/* eliminates the space at the top due to the h2 title there */
+.nav_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_container h2,
+.underscore {
+    font-family: "optima";
+    font-weight: 100;
+    margin:0;
+    display: flex;
+  /* Fallback: Set a background color. */
+  background-color: red;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, #01dfd0, #48a5cc);
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+span {
+    align-self: center;
+}
+
+.main-nav {
+    width: auto;
+    display: flex;
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-family: "Gill Sans";
+    font-size: small;
+    color: white;
+    align-self: center;
+    margin: 10px;
+}
+
+.main-nav a:active {
+    color: #48a5cc;
+}
+
+header article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    width: 600px;
+}
+
+header article h2 {
+margin-bottom: 0;
+}
+
+.article_paragraph {
+    margin-bottom: 40px;
+    font-family: optima;
+    font-size: small;
+    line-height: 1.5;
+}
+
+.learn_more {
+    font-family: "Gill Sans";
+    text-transform: uppercase;
+    padding: 10px;
+    outline: 1px solid var(--light_blue);
+    font-size: small;
+    color: var(--light_blue);
+}
+
+.header_article-container {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+  /* ================================= STORY SECTION ================================= */
+ .story {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 350px;
+ }
+
+ .biglogo {
+     height: 200px;
+ }
+
+ .story_article {
+     width: 500px;
+     margin-left: 80px;
+ }
+
+ .story_article p {
+     margin-bottom: 30px;
+     font-family: optima;
+     font-size: small;
+     line-height: 1.5;
+ }
+
+  /* ================================= VIDEO SECTION ================================= */
+
+
+.video_story {
+    color: white;
+    font-family:"Gill Sans";
+    font-size: bold;
+    background-image: url("photoshop/design-assets/bgk-middle.png");
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.video_story img {
+    height: 80px;
+}
+
+/* ================================= EXPERTISE SECTION ================================= */
+
+
+.expertise {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.expertise p {
+    color: rgb(114, 114, 114);
+}
+
+.title_container {
+    text-align: center;
+}
+
+.title_container h3 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.underscore2 {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.little_text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.expertise_container {
+    height: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 290px 290px 290px;
+    grid-template-rows: 200px 200px ;
+}
+
+.expertise_container h6 {
+    padding-bottom: 0px;
+}
+
+.expertise_container p {
+    font-size: 12px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: optima;
+    line-height: 1.5;
+}
+
+.expertise_container div {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.expertise img {
+    margin-top: 20px;
+    height: 40px;
+}
+
+.web_design {
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+.branding_identity{
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+.mobile_app {
+
+    border-bottom: 1px solid lightgrey;
+}
+.search_engine {
+    border-right: 1px solid lightgrey;
+}
+.game_development {
+    border-right: 1px solid lightgrey;
+}
+
+/* ================================= TEAM SECTION ================================= */
+
+.team {
+    background-image: url("photoshop/design-assets/bgk-header.png");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 650px;
+}
+
+.team aside {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team aside p {
+    margin-bottom: 0px;
+    font-family: optima;
+    font-size: smaller;
+}
+
+.team h3 {
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.team aside .underscore2 {
+    color:rgb(114, 114, 114);
+}
+
+.personal {
+    display: flex;    
+    margin-top: 40px;
+}
+
+.personal > div {
+    margin-right: 10px;
+    border: 1px solid white;
+}
+
+.img_div {
+    background-color: white;
+    width: 145px;
+    height: 160px;
+}
+
+.personal p, .personal h6{
+    font-family: optima;
+    font-size: 10px;
+    text-align: center;
+}
+.personal h6 {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.personal p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.last_part-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.last_part-team p {
+    font-family: optima;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+/* ================================= FEEDBACK SECTION ================================= */
+
+
+.form_section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.form_section h4 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form {
+    display: flex;   
+    flex-direction: column;
+    margin-right: 100px;
+    width: 400px;
+    align-items: flex-start;
+}
+
+input[type=text], input[type=email] , textarea {
+    color: rgb(197, 197, 197);
+    border: 2px solid rgb(224, 224, 224);
+    font-family: optima;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 350px;
+}
+.clients {
+    display: grid;
+    grid-template-columns: 170px 170px;
+    grid-template-rows: 40px repeat(5, 70px);
+}
+
+.clients h4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    align-self: flex-start;
+}
+
+.clients img {
+    max-width: 110px;
+    justify-self: start;
+    align-self: center;
+}
+
+input[type=submit] {
+    background-color: white;
+    border: 1px solid var(--light_blue);
+    color: var(--light_blue);
+    font-family: "Gill Sans";
+    font-size: 11px;
+    font-weight: bolder;
+    padding: 10px 20px;
+    margin-top: 12px;
+}
+
+/* ================================= FEEDBACK SECTION ================================= */
